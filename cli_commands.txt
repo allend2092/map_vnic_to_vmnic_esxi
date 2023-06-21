@@ -1,2 +1,13 @@
 esxcli vm process list
 esxcli network vm port list -w
+
+Program logic:
+SSH to ESXi server
+Check for the presence of json file
+Test the timestamp attrubute of the json file
+  If its older than 24 hours, delete it
+Run cli command: esxcli vm process list
+Collect world ids and put them in a list or in a dictionary
+Use a for each loop to append the world id to this command: esxcli network vm port list -w <wordl ID> | grep "Team"
+Collect pnic / vmnic data and put it in a data structure
+After all the data is processed, change the format to json and deposit new json file on the ESXi server
