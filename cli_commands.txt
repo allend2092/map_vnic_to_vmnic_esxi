@@ -1,0 +1,2 @@
+esxcli vm process list
+esxcli network vm port list -w
