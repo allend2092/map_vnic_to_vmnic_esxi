@@ -1,0 +1,48 @@
+{
+    "nsx-t-manager1": [
+        {
+            "MAC Address": "00:50:56:b3:c4:ed",
+            "vmnic": "vmnic2",
+            "Portgroup": "dvportgroup-1004",
+            "Port ID": "67108885"
+        }
+    ],
+    "Ubuntu-SFTP": [
+        {
+            "MAC Address": "00:50:56:b3:9d:16",
+            "vmnic": "vmnic2",
+            "Portgroup": "dvportgroup-1004",
+            "Port ID": "67108884"
+        }
+    ],
+    "UPSA913s-Test-02": [
+        {
+            "MAC Address": "00:50:56:b3:c4:bd",
+            "vmnic": "vmnic2",
+            "Portgroup": "dvportgroup-1004",
+            "Port ID": "67108886"
+        },
+        {
+            "MAC Address": "00:50:56:b3:59:7c",
+            "vmnic": "vmnic3",
+            "Portgroup": "VM Network",
+            "Port ID": "100663315"
+        }
+    ],
+    "Windows-Server-2012-R2": [
+        {
+            "MAC Address": "00:0c:29:a9:0e:ec",
+            "vmnic": "vmnic2",
+            "Portgroup": "dvportgroup-1005",
+            "Port ID": "67108880"
+        }
+    ],
+    "vcenter": [
+        {
+            "MAC Address": "00:0c:29:23:b8:6c",
+            "vmnic": "vmnic2",
+            "Portgroup": "dvportgroup-1004",
+            "Port ID": "67108879"
+        }
+    ]
+}
